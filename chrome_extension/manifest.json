@@ -1,0 +1,18 @@
+{
+  "name": "A Better Place",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Hides all negative tweets on twitter.com between the hours of 7am and 11am.",
+  "homepage_url": "http://jonty.co.uk/abetterplace",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "src/inject.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": ["src/afinn.js", "src/abp.js", "src/run.js"]
+}
