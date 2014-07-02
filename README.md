@@ -23,6 +23,6 @@ Alternatively there's a draggable link [over on the main site](http://jonty.co.u
 Developers
 ========
 
-This is using [AFIN-111](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) sentiment analysis, which is awful, but still better than everything else when using twitter. A small amount of the code is taken from [sentiment](https://github.com/thisandagain/sentiment) by [thisandagain](https://github.com/thisandagain). Thanks.
+This is using [AFINN-111](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) sentiment analysis, which is awful, but still better than everything else when using twitter. A small amount of the code is taken from [sentiment](https://github.com/thisandagain/sentiment) by [thisandagain](https://github.com/thisandagain). Thanks.
 
 If you want to play around with this you can see debug logging in the JS console, however Twitter disable it - you can re-enable it by issuing `delete console.log` in the console.
